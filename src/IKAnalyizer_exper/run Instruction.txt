@@ -1,0 +1,14 @@
+指定包-> run as ->:
+(1) Main: 检查 Porject 和 Main class
+(2) argument: 
+  -- train:
+    test_IKAnalyzer -m x1.txt -c miss -t messageclassifier.model
+    test_IKAnalyzer -m x2.txt -c miss -t messageclassifier.model
+    test_IKAnalyzer -m x3.txt -c miss -t messageclassifier.model
+
+    test_IKAnalyzer -m y1.txt -c hit -t messageclassifier.model
+    test_IKAnalyzer -m y2.txt -c hit -t messageclassifier.model
+    test_IKAnalyzer -m y3.txt -c hit -t messageclassifier.model
+  -- test:
+    test_IKAnalyzer -m x4.txt -t messageclassifier.model
+    
